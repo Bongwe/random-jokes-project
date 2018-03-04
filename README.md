@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RandomJokeProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
@@ -26,3 +27,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# random-jokes-project
+An Angular application that displays random jokes read from a json file
+>>>>>>> bdac8e59e59293976ade1d753119eaee9ba4376e

@@ -26,6 +26,9 @@ export class AppComponent {
   selectNewJoke() {
     this.selectedJokeIndex = this.generateRandomInteger(0,2);
     this.selectedJoke = this.jokes[this.selectedJokeIndex];
+    this.selectedJoke.title =this.selectedJoke.title.toLocaleUpperCase();
+    this.selectedJoke.setup = this.selectedJoke.setup.toLocaleUpperCase();
+    this.selectedJoke.punchLine = this.selectedJoke.punchLine.toLocaleUpperCase();    
   }
 
   generateRandomInteger(min, max) {

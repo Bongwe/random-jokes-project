@@ -1,10 +1,19 @@
-body {
-   background-image: url("/assets/ahoy.jpg");
+@font-face {
+    font-family: 'coinyregular';
+    src: url('assets/coiny/coiny-regular.woff2') format('woff2'),
+         url('assets/coiny/coiny-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  background-color: black;
 }
 
 .container {
   height: 100%;
-  width: 100%;
+  width:100%;
   display: flex;
   position: fixed;
   align-items: center;
@@ -12,5 +21,7 @@ body {
 }
 
 .row{
-    background-color: white;
+  color: white;
+  font-family: coinyregular;
+  font-size: 30px;
 }
